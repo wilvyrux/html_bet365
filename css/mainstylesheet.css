@@ -1,0 +1,1118 @@
+/***********************/
+/*NAME: WILLIAM L. CARRASCA JR.*/
+/*WEBSITE: williamcarrasca.dotpxelz.com 
+/* Mobile: 09212632325
+/***********************/
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Global styles -----------------------------------------------------------------------------------------------------------*/
+
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: inherit;
+}
+
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+    display: block;
+}
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+.cf:before, .cf:after {
+    content: "";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom: 1;
+}
+
+a {
+    text-decoration: none;
+	/*color: #667F6A;
+	border-bottom: 1px dotted #667F6A;*/
+    ;
+}
+
+a:hover {
+    color: #7B798F;
+	/*border-bottom: 1px solid #7B798F;*/
+    ;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a img {
+    border: none;
+    outline: 0;
+}
+
+
+
+/***********************/
+
+/***********************/
+
+
+body {
+    background: #000;
+}
+
+#wrapper-main {
+    width: 100%;
+    margin: auto;
+    /*height: 1167px;*/
+    height: auto;
+    padding-bottom: 50px;
+    background: url(../_images/background.jpg) top center no-repeat;
+}
+
+.topbar-div {
+    width: 100%;
+    border-bottom: 1px solid #406b02;
+    height: 45px;
+}
+
+#wrapper-main .topbar-div > header {
+    width: 960px;
+    margin: auto;
+    position: relative;
+}
+
+/* banner LEFT section */
+#banner > ul {
+    margin-top: 13px;
+    padding: 0;
+    float: left;
+}
+
+#banner > ul li {
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-right: 20px;
+}
+
+/*english yellow css*/
+#banner > ul li:nth-child(2) {
+    color: #FC0;
+}
+/*img icon margin*/
+#banner > ul li > img {
+    padding-right: 5px;
+}
+
+#banner > ul li:nth-child(2) > a {
+    color: #F90;
+    text-decoration: none;
+    font-style: none;
+}
+
+#banner > ul li:nth-child(2) > a:hover {
+    opacity: .3;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+#banner > ul li:nth-child(3) > a {
+    color: #fff;
+}
+
+#banner > ul li:nth-child(3) > a:hover {
+    opacity: .3;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 292px;
+    background: #000;
+    padding: 9px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.search > span, p {
+    float: left;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.search > p {
+    color: #fff;
+    margin: 2px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.searchbox {
+    width: 200px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+.search-icon {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    background: url(../_images/magnisearch.png) center no-repeat;
+    width: 20px;
+    height: 20px;
+    z-index: 5;
+}
+
+
+
+
+/* LOGO SECTION */
+.logosection-div {
+    width: 100%;
+    height: 98px;
+}
+
+.logosection-div > section {
+    width: 960px;
+    margin: auto;
+}
+
+
+/* BOX Login */
+#boxlogin div {
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+#boxlogin div > p {
+    margin-top: 2px;
+}
+
+#boxlogin div:first-child {
+    width: 222px;
+    margin-left: 14px;
+}
+
+#sprytextfield1 > label {
+    float: left;
+    color: #c2c4bf;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+#sprytextfield1 > input {
+    float: left;
+    clear: both;
+    width: 95%;
+    padding: 5px;
+    border: none;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#sprypassword1 > label {
+    float: left;
+    color: #c2c4bf;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+#sprypassword1 > input {
+    float: left;
+    clear: both;
+    width: 95%;
+    padding: 5px;
+    border: none;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#boxlogin div > input {
+    width: 100%;
+    padding: 6px;
+    border: none;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    margin-top: 19px;
+    background: #fa0100;
+ /* Old browsers */
+    background: -moz-linear-gradient(top,  #fa0100 0%, #de0100 41%, #c70000 100%);
+ /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fa0100), color-stop(41%,#de0100), color-stop(100%,#c70000));
+ /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #fa0100 0%,#de0100 41%,#c70000 100%);
+ /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fa0100 0%,#de0100 41%,#c70000 100%);
+ /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #fa0100 0%,#de0100 41%,#c70000 100%);
+ /* IE10+ */
+    background: linear-gradient(to bottom,  #fa0100 0%,#de0100 41%,#c70000 100%);
+ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa0100', endColorstr='#c70000',GradientType=0 );
+ /* IE6-9 */
+    ;
+}
+
+#boxlogin div > input:hover {
+    background: #F33;
+}
+
+#boxlogin div:nth-child(2) {
+    width: 222px;
+}
+
+#boxlogin div:last-child {
+    width: 69px;
+}
+
+.logo {
+    background: url(../_images/logo.png) no-repeat;
+    width: 151px;
+    height: 32px;
+    float: left;
+    margin-top: 27px;
+}
+
+.login-div {
+    width: 563px;
+    float: right;
+    height: 100%;
+}
+
+.subtextcenter {
+    font-size: 10px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #FC0;
+    width: 100%;
+    text-align: center;
+}
+
+.subtextright {
+    font-size: 10px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #FC0;
+    width: 100%;
+    text-align: right;
+}
+
+.menubar {
+    width: 100%;
+    border-top: 1px solid #243c01;
+    border-bottom: 1px solid #243c01;
+    background: #060e00;
+    opacity: .7;
+}
+
+#menubar-div {
+    width: 960px;
+    margin: auto;
+}
+
+#menubar-div ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menubar-div ul li {
+    list-style: none;
+    color: #fff;
+    display: inline-block;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    /*margin-right: 40px;*/
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.active {
+    background: url(../_images/active-btn.png)center no-repeat;
+    height: 43px;
+    width: 100%;
+    position: absolute;
+    margin-top: -40px;
+    bottom: -6px;
+    left: 0;
+}
+
+#menubar-div ul li > a {
+    color: #fff;
+}
+
+#menubar-div ul li > a:hover {
+    opacity: .4;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+
+/* SLIDER DIV*/
+#slider-div {
+    margin: auto;
+    width: 960px;
+}
+
+.maincontent {
+    width: 950px;
+    margin: auto;
+}
+
+.maincontent > div {
+    float: left;
+    margin-top: 20px;
+}
+
+.maincontent > div:first-child {
+    position: relative;
+    z-index: 1;
+}
+
+.maincontent > div > section {
+    margin: 20px;
+    opacity: 9;
+    position: relative;
+    height: auto;
+	overflow:auto;
+	padding-bottom:20px;
+
+}
+
+.maincontent > div > section p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    text-transform: none;
+    line-height: 150%;
+    z-index: 5;
+}
+
+
+	
+/* CONTACT US CONTAINER */
+div > div > div > div > section {
+}
+
+/* Targeting the last p tag on the contact us */
+div > div > div > div > section p:nth-child(4) {
+	margin-bottom:5px;
+}
+
+.maincontent > div > section > .about-div {
+    width: 403px;
+    text-align: justify;
+    overflow: auto;
+}
+
+.maincontent > div > section > .about-div p {
+    clear: both;
+    margin-bottom: 22px;
+}
+
+
+
+
+/*LEFT CONTENT*/
+.maincontent > div:first-child {
+    background: #0e1400;
+    width: 697px;
+    border: 1px solid #316900;
+    opacity: .8;
+    color: #fff;
+}
+
+hgroup h1 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    color: #fff900;
+    text-transform: uppercase;
+    font-weight: bold;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+hgroup h3 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 11px;
+    color: #fff900;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.formbox {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.formtextbottom {
+    width: 435px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+}
+
+#sprycheckbox1 > label > a {
+    color: #F00;
+    margin-left: 5px;
+}
+
+.registerbtn {
+    width: 112px;
+    margin: auto;
+    padding: 20px;
+}
+
+.sendmessage {
+    width: 112px;
+    margin: auto;
+    padding: 20px;
+    float: right;
+}
+
+/*register button*/
+.registerbtn > input, .sendmessage > input {
+    background: #F00;
+    border: none;
+    padding: 10px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    border: 1px solid #900;
+    background: #f50100;
+ /* Old browsers */
+    background: -moz-linear-gradient(top,  #f50100 0%, #de0100 40%, #c50000 100%);
+ /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f50100), color-stop(40%,#de0100), color-stop(100%,#c50000));
+ /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f50100 0%,#de0100 40%,#c50000 100%);
+ /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f50100 0%,#de0100 40%,#c50000 100%);
+ /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f50100 0%,#de0100 40%,#c50000 100%);
+ /* IE10+ */
+    background: linear-gradient(to bottom,  #f50100 0%,#de0100 40%,#c50000 100%);
+ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f50100', endColorstr='#c50000',GradientType=0 );
+ /* IE6-9 */
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.registerbtn > input:hover, .sendmessage> input:hover {
+    background: #F00;
+}
+
+
+
+/* FORMS INPUT */
+#sprytextfield2 > label, #sprypassword2 label, #sprytextfield3 > label, #sprytextfield4 > label, #spryconfirm1 > label, #sprytextfield5 > label, #sprytextfield6 > label, #sprytextarea1 > label {
+    float: left;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+#sprytextarea1 > textarea {
+    float: left;
+    clear: both;
+    padding: 2px;
+    width: 96%;
+}
+
+#sprytextfield2 > input, #sprypassword2 > input, #sprytextfield3 > input, #sprytextfield4 > input, #spryconfirm1 > input, #sprytextfield5 > input,  #sprytextfield6 > input, #sprytextarea1 > input {
+    float: left;
+    clear: both;
+    padding: 3px;
+    width: 98%;
+    font-size: 11px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #030;
+}
+
+
+
+/*SIDEBAR*/
+.maincontent > div:last-child {
+    width: 230px;
+    float: right;
+    text-align: center;
+	margin-right:-6px;
+}
+
+/* ADVERTISEMENT BOX */
+.maincontent > div:last-child > div {
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+/*img sidebar*/
+.maincontent > div:last-child > div img {
+    border: 1px solid #355a00;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .6);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .6);
+}
+
+/*sidebar - LAST div*/
+.maincontent > div:last-child > div:last-child {
+    background: #0d1a00;
+    opacity: .7;
+    width: 220px;
+    height: 118px;
+    border: 1px solid #316900;
+}
+
+.maincontent > div:last-child > div:last-child  section {
+    opacity: 9;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 10px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.maincontent > div:last-child > div:last-child  section h1 {
+    color: #fff900;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.maincontent > div:last-child > div:last-child  section p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: none;
+    font-size: 12px;
+}
+
+.fb {
+    background: url(../_images/fb.png) center no-repeat;
+    width: 226px;
+    height: 49px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.fb:hover, .twitter:hover, .insta:hover {
+    opacity: .5;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.twitter {
+    background: url(../_images/twitter.png) center no-repeat;
+    width: 226px;
+    height: 49px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.insta {
+    background: url(../_images/insta.png) center no-repeat;
+    width: 226px;
+    height: 49px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+
+/* SPONSOR DIV*/
+.sponsor {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.sponsor > p {
+    color: #FFF;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.sponsorbox {
+    background: #FFF;
+}
+
+#sponsorbox > ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#sponsorbox > ul  li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+/* FOOTER LINKS */
+.footer-links {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#footers > ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#footers > ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 11px;
+    color: #FFF;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+#footers > ul li > a {
+    color: #FFF;
+}
+
+#footers > ul li > a:hover {
+    color: #666;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+
+#footers  > p {
+    width: 100%;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 11px;
+    margin-top: 8px;
+    color: #FFF;
+}
+
+
+
+/***********************/
+/*NAME: WILLIAM L. CARRASCA JR.*/
+/*WEBSITE: williamcarrasca.dotpxelz.com 
+/* Mobile: 09212632325
+/***********************/
+
+
+
+/* SUBPAGES - CSS*/
+/* SPORSTSBOOK, CASINO PAGE CSS*/
+
+.sportsbox-big1 {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.sportsbox-big1 > img, .sportsbox-big2 > img {
+    margin: auto;
+    width: 100%;
+}
+
+.sportsbox-big1 > p, .sportsbox-big2 > p {
+    display: block;
+    text-align: justify;
+    height: 70px;
+}
+
+#playnow {
+    padding: 10px;
+    background: #F00;
+    clear: both;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* FOR PLAY NOW BUTTON HOVER*/
+/* casino, sportsbook */
+.sportsbox-big1 > a, .sportsbox-big2 > a, .casino-big1 > a {
+    color: #FFF;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* FOR PLAY NOW BUTTON HOVER*/
+/* casino, sportsbook */
+.sportsbox-big1 > a:hover, .sportsbox-big2 > a:hover, .casino-big1 > a:hover {
+    color: #F90;
+    -webkit-transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    -ms-transition: color .5s ease-in-out;
+    -o-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out;
+}
+
+.sportsbox-big2 {
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.casino-big1 {
+    width: 200px;
+    float: left;
+    margin-right: 17px;
+    text-align: center;
+}
+
+#casino-div > p {
+    font-size: 10px;
+    height: 70px;
+    display: block;
+    text-align: justify;
+    color: fff;
+    width: 100%;
+}
+
+.casino-big1  > img {
+    margin: auto;
+    width: 100%;
+}
+/*
+.casino-big1  > p {
+	display:block;
+	text-align:justify;
+	height:70px;
+	color:#6CF;
+	font-size:1px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+} */
+
+
+#thumb-slot > ul {
+    margin: 0;
+    padding: 0;
+}
+
+#thumb-slot > ul li {
+    list-style: none;
+    float: left;
+    width: 190px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#thumb-slot > img {
+    margin-bottom: 10px;
+}
+
+#thumb-slot > ul li > p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.about-back {
+    background: url(../_images/about-back.png) no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 699px;
+    height: 488px;
+    z-index: 0;
+}
+
+.faq-back {
+    background: url(../_images/fab-back.png) no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 490px;
+    height: 348px;
+}
+
+#promotion-ads {
+    text-align: center;
+    padding: 5px;
+}
+
+/* INDEX CSS */
+#leftbox {
+    background: none;
+    border: none;
+    width: 712px;
+}
+
+#leftbox > div {
+    float: left;
+    width: 229px;
+    position: relative;
+    height: 220px;
+    margin-bottom: 10px;
+	margin-left:-4px;
+
+}
+
+#leftbox > div > h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin-top: 14px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+    color: #f0ea00;
+    font-weight: bold;
+}
+
+/*PLAY ALL BUTTON CSS*/
+#leftbox > div > a {
+    padding: 6px;
+    background: #F00;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #FFF;
+    font-weight: bold;
+    border: 1px solid #900;
+    z-index: 1;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #ef0100;
+ /* Old browsers */
+    background: -moz-linear-gradient(top,  #ef0100 0%, #e70100 40%, #c80000 100%);
+ /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ef0100), color-stop(40%,#e70100), color-stop(100%,#c80000));
+ /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ef0100 0%,#e70100 40%,#c80000 100%);
+ /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ef0100 0%,#e70100 40%,#c80000 100%);
+ /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ef0100 0%,#e70100 40%,#c80000 100%);
+ /* IE10+ */
+    background: linear-gradient(to bottom,  #ef0100 0%,#e70100 40%,#c80000 100%);
+ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef0100', endColorstr='#c80000',GradientType=0 );
+ /* IE6-9 */;
+}
+
+#leftbox > div > a:hover {
+    background: #F30;
+}
+
+.box1 {
+    background: url(../_images/boxfloat-1.jpg) no-repeat;
+    width: 230px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/*BOX LINK COLOR AND HOVER -CLCIK HERE */
+#leftbox > div > div > a {
+    color: #FFF;
+    opacity: 10;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    width: 185px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+#leftbox > div > div > a:hover {
+    color: #333;
+}
+
+.box2 {
+    background: url(../_images/boxfloat-2.jpg) no-repeat;
+    width: 230px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box3 {
+    background: url(../_images/boxfloat-fb-box.jpg) no-repeat;
+    width: 230px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box4 {
+    background: url(../_images/boxfloat-3.jpg) no-repeat;
+    width: 230px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.testibox {
+    background: url(../_images/testimonial-box.png) no-repeat;
+    width: 230px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#clickfb {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+}
+
+#clickfb > a > img {
+    float: left;
+    margin-left: -10px;
+}
+
+
+/* BOXES FLOAT */
+.box-div {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 57px;
+    z-index: 5;
+    background: #000;
+    opacity: .6;
+}
+	
+/* 2nd  box float*/
+#leftbox > div:nth-child(2) {
+    margin-left: 11px;
+    margin-right: 11px;
+}
+/* 5th  box float*/
+#leftbox > div:nth-child(5) {
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+/* last box float*/
+#leftbox > div:last-child {
+    background: #061700;
+}
+
+
+/* LAST FLOAT BOX CSS*/
+#leftbox > div:last-child > ul {
+    padding-top: 40px;
+    width: 202px;
+    margin: auto;
+}
+
+#leftbox > div:last-child > ul li {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    list-style: none;
+    line-height: 150%;
+}
+
+#leftbox > div:last-child > ul li > span {
+    margin-left: 80px;
+    font-size: 10px;
+}
+
+.flashtesti {
+    position: absolute;
+    width: 229px;
+    height: 220px;
+    top: 0;
+}
+
+.left-div {
+    float: left;
+    width: 313px;
+    margin-right: 10px;
+}
+
+#sprytextarea1 {
+    width: 100%;
+}
